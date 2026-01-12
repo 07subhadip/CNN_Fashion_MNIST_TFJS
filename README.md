@@ -20,10 +20,12 @@ Everything runs on the **client-side**. No data is ever sent to a server.
 
 This project implements two distinct architectures for comparison.
 
-| Model Architecture      | Training Accuracy | Training Loss | Validation Accuracy | Validation Loss |
-| :---------------------- | :---------------- | :------------ | :------------------ | :-------------- |
-| **CNN (Convolutional)** | ~91.33%           | 0.2315        | ~89.66%             | 0.2886          |
-| **FNN (Feed-Forward)**  | ~91.46%           | 0.2359        | ~88.27%             | 0.3229          |
+| Metric                  | CNN (Convolutional) | FNN (Feed-Forward) |
+| :---------------------- | :------------------ | :----------------- |
+| **Training Accuracy**   | ~91.33%             | ~91.46%            |
+| **Training Loss**       | 0.2315              | 0.2359             |
+| **Validation Accuracy** | ~89.66%             | ~88.27%            |
+| **Validation Loss**     | 0.2886              | 0.3229             |
 
 > **Note:** The CNN model generally outperforms the FNN on complex shapes due to its ability to capture spatial hierarchies.
 
@@ -72,4 +74,6 @@ The model is trained on the standard Fashion MNIST dataset and recognizes:
 
 ---
 
-&copy; 2026 **Subhadip Hensh**. All Rights Reserved.
+<div align="center">
+  &copy; 2026 <strong>Subhadip Hensh</strong>. All Rights Reserved.
+</div>
